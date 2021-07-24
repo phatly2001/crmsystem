@@ -2,11 +2,10 @@
 	pageEncoding="UTF-8"%>
 <%@include file="../common/header.jspf" %>
 	<section class="content">
-
 		<div class="container my-3">
 			<div class="row p-3">
 				<div class="welcome">
-					<h3>Welcome, Ly Hung Phat !</h3>
+					<h2>Welcome, Ly Hung Phat!</h2>
 				</div>
 				<div class="date-block">
 					<div class="navbar navbar-expand-lg navbar-light">

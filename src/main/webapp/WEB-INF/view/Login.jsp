@@ -39,8 +39,14 @@
                                 </h1>
                             </div>
                             <div class="card-body">
-                                <input type="text" class="form-control p-2 rounded px-2" style="padding-left:20px!important;" placeholder="Account">
-                                <input type="text" class="form-control p-2 my-3 rounded"  style="padding-left:20px!important;" placeholder="Password">
+                               <div class="form-floating mb-3">
+  <input type="email" class="form-control rounded" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Email</label>
+</div>
+                               <div class="form-floating mb-3">
+  <input type="password" class="form-control rounded" id="floatingInput" placeholder="Password">
+  <label for="floatingInput">Password</label>
+</div>
                                 <div class="row align-items-center p-2">
                                     <div class="col-8">
                                         <div class="form-check form-switch ">
