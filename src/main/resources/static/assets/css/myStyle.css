@@ -186,6 +186,7 @@ body {
     width: 65%;
     z-index: 99999;
     
+    
 }
 .link-color {
     background:linear-gradient(to left, #d87e70,#d87093);
@@ -205,3 +206,63 @@ body {
     color: #a35480 !important;
 
 } 
+.signUpBox{
+    position: absolute;
+    right: -550px;
+}
+.logInBox{
+    position: relative;
+    top:0px;
+    transition:0.5s ease;
+}
+.logInBox.active{
+    position:absolute;
+    top: -500px;
+    right: 0;
+    transition:.5s ease;
+}
+.signUpBox.active{
+    transition:0.5s ease;
+    right: 0;
+}
+.forgotPasswordBox{
+    position:absolute;
+    top:-500px;
+    right: 0;
+    
+}
+.forgotPasswordBox.active{
+    top: 0;
+    transition:0.5s ease;
+}
+.img-login{
+    top:0px;
+    left: 0;
+    transition:0.5s ease;
+}
+.img-login.active{
+    position:absolute;
+    left: -550px;
+    transition:.5s ease;
+}
+
+.img-signup{
+    position: absolute;
+    top: -500px;
+    left: 0;
+}
+.img-signup.active{
+    top: 0px;
+    transition:0.5s ease;
+    left: 0;
+}
+.img-forgot{
+    position: absolute;
+    left: -500px;
+}
+.img-forgot.active{
+  
+    top: 0px;
+    transition:0.5s ease;
+    left: 0;
+}
